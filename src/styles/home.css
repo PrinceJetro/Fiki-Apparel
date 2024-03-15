@@ -1,0 +1,137 @@
+body{
+  margin: 0;
+}
+
+.men{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.female{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 700px;
+}
+
+
+
+.intro a{
+  color: black;
+}
+
+.intro p:hover{
+  color: orange;
+}
+
+
+  /* Mobile */
+  @media screen and (max-width: 480px) {
+    .intro{
+      height: 400px;
+    }
+  }
+  
+  
+  .parallax {
+    /* The image used */
+    background-image: url("https://img.pikbest.com/wp/202347/facets-geometrical-crystallized-fashion-wallpaper-iridescent-blue-and-yellow-metallic-texture-in-abstract-faceted-background-3d-rendering_9743423.jpg!sw800");
+    /* Set a specific height */
+    min-height: 700px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position: right top;
+    background-position: 10% 50%;
+    padding: 0;
+
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-family: "Angkor", serif;
+      font-weight: 400;
+      font-style: normal;
+    
+  }
+
+.parallax div{
+  height: 70%;
+  width: 75%;
+}
+  .parallax1 {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1508873881324-c92a3fc536ba?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eWVsbG93JTIwbmF0dXJlfGVufDB8fDB8fHww");
+  
+    /* Set a specific height */
+    min-height: 700px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 50%;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: "Angkor", serif;
+      font-weight: 400;
+      font-style: normal;
+  }
+
+
+  .parallax1 div{
+    height: 70%;
+    width: 75%;
+  }
+
+  /* Mobile */
+  @media screen and (max-width: 480px) {
+    .parallax, .parallax1 {
+      justify-content: center;
+      font-family: "Angkor", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .parallax1 div, .parallax div{
+      height: 80%;
+      width: 100%;
+    }
+  
+  
+  }
+
+
+.parallax h1, .parallax1 h1{
+  font-size: 56px;
+}
+
+.featured_header{
+  margin: auto;
+  text-align: center;
+  margin: 25px 0 40px 0;
+  font-family: "Angkor", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.featured{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
