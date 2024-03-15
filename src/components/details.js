@@ -33,7 +33,7 @@ export default function Home(){
     function send_handle() {
         const num = 2348088981691; 
         
-        const message = `Hi, I am interested in the ${name}.\n\nHere is the image: ${image}`;
+        const message = `Hi, I am interested in the ${name}.\n\nHere is the image: https://fiki-apparel.vercel.app${image}`;
         const encodedMessage = encodeURIComponent(message);
         
         const whatsappLink = `https://wa.me/${num}?text=${encodedMessage}`;
