@@ -24,6 +24,8 @@ import women10 from "../images/women10.jpg";
 import women11 from "../images/women11.jpg";
 import women12 from "../images/women12.jpg";
 import women13 from "../images/women13.jpg";
+import women14 from "../images/women14.jpg";
+import women15 from "../images/women15.jpg";
 
 
 
@@ -173,6 +175,18 @@ export default  [
         name:"Tube and Top Bras (Cute Top Pass)",
         desc:"Introducing our Tube and Top Bras: Elevate your lingerie collection with our stylish and versatile tube and top bras. Designed for maximum comfort and support, these bras feature a seamless design that offers a smooth fit under any outfit. Whether you're looking for a strapless option for a special occasion or a comfortable everyday bra, our tube and top bras have you covered. With a variety of colors and styles to choose from, you can find the perfect match for your wardrobe. Experience comfort and confidence with our Tube and Top Bras today.",
         price:"3,500",
+    }, 
+    {
+        img:women14,
+        name:"Quality Thong Pants (Sleeky Chance)",
+        desc:"Introducing our Quality Thong Pants: Elevate your lingerie drawer with our range of luxurious and comfortable thong pants. Crafted from premium materials, our thong pants offer a perfect blend of quality, style, and comfort. With a sleek and seamless design, they provide a flattering fit that stays invisible under your favorite outfits. Whether you're looking for everyday essentials or special occasion wear, our collection has you covered. Upgrade to our Quality Thong Pants for unmatched comfort and confidence.",
+        price:"1,500",
+    }, 
+    {
+        img:women15,
+        name:"Quality Thong Pants (Quality Sleeky Chance)",
+        desc:"Introducing our Quality Thong Pants: Elevate your lingerie drawer with our range of luxurious and comfortable thong pants. Crafted from premium materials, our thong pants offer a perfect blend of quality, style, and comfort. With a sleek and seamless design, they provide a flattering fit that stays invisible under your favorite outfits. Whether you're looking for everyday essentials or special occasion wear, our collection has you covered. Upgrade to our Quality Thong Pants for unmatched comfort and confidence.",
+        price:"1,500",
     }, 
 
 ]
