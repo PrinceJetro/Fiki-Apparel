@@ -43,7 +43,7 @@ export default function Footer(){
           <div class="footer-call-to-action">
             <h2 class="footer-call-to-action-title"> Let's Chat</h2>
             <p class="footer-call-to-action-description"> Have a support question?</p>
-            <a class="footer-call-to-action-button button" href="https://wa.me/2348088981691" target="_self"> Get in Touch </a>
+            <a class="footer-call-to-action-button button" href="https://wa.me/2349014680154" target="_self"> Get in Touch </a>
           </div>
           <div class="footer-call-to-action">
             <h2 class="footer-call-to-action-title"> You Call Us</h2>

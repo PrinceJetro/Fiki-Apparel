@@ -31,7 +31,7 @@ export default function Home(){
 
     
     function send_handle() {
-        const num = 2348088981691; 
+        const num = 2349014680154; 
         
         const message = `Hi, I am interested in the ${name}.\n\nHere is the image: https://fiki-apparel.vercel.app${image}`;
         const encodedMessage = encodeURIComponent(message);
