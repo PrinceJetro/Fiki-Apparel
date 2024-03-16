@@ -23,7 +23,7 @@
   /* Mobile */
   @media screen and (max-width: 480px) {
     .most_wanted img{
-      width: 250px;
+      width: 100%;
   }
     }
 
